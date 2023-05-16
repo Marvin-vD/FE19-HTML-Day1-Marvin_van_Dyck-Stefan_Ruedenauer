@@ -1,0 +1,55 @@
+What is HTML?
+HTML is the HyperText Markup Language used to describe web pages.
+
+How many versions of HTML do you know?
+HTML, HTML 2.0, HTML 3.2, HTML 4.01, XHTML, HTML5
+
+How does the basic anatomy of a web page look like?
+!Doctype
+HTML
+head
+title
+/title
+/head
+body
+h1
+/h1
+p
+/p
+/body
+/html
+
+
+Could you describe the constituting parts of the Web page? Open your favorite website in your browser and try to find these parts in it.
+
+
+What are HTML elements? What is the difference between opening and closing tags?
+Tags are used to define where an HTML element starts and ends. A start (opening) tag is made up of an opening angle bracket (< ) followed by the name of the element, one or more space separated attribute/value pairs, and for the end (closing) tag (/)
+
+Could you describe the Page Structure of an HTML document explaining each element?
+!Doctype (This tag defines the document type and HTML version.)
+HTML (This tag encloses the complete HTML document and mainly contains a document header which is represented by <head>...</head> and a document body which is represented by <body>...</body> tags.)
+head (This tag represents the document's header which can keep other HTML tags like <title>, <link> etc.)
+title (The <title> tag is used inside the <head> tag to mention the document title.)
+/title
+/head
+body (This tag represents the document's body which keeps other HTML tags like <h1>, <div>, <p> etc.)
+h1
+/h1
+p
+/p
+/body
+/html
+
+What is an HTML block element?
+Block elements take up the whole horizontal space available in its container. They start on a new line and take up as much height as their contents require.
+
+What is an HTML inline element?
+Inline elements are displayed on the same line. They do not start on a new line and take up only as much width as their contents require. An example of an inline element is the <span> tag.
+
+What is the div tag and why is it important? What is the difference between div and span elements?
+The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. The <div> tag is easily styled by using the class or id attribute. Any sort of content can be put inside the <div> tag!
+A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling.
+
+What is the purpose of semantic elements in HTML5?
+HTML5's semantic elements help structure the code we create, making it more readable and easier to maintain.
